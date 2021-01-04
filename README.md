@@ -47,4 +47,4 @@ MIT License
 ##### Run console application in virtual environment.
 
 - Run command: 
-```python -m chase [ARGS]```
+```python -m chase --help```
