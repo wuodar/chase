@@ -19,8 +19,6 @@ This task is implemented for 'Python programming' course at TUL.
 
 MIT License
 
-#### Instruction to task three.
-
 ##### Create package:
 
 - Create setup.py file with configuration of package
@@ -39,12 +37,13 @@ MIT License
 ##### Install package in virtual environment
 
 - Install our package: 
-```pip install dist\package_name.whl --force-reinstall```
-- Use --force-reinstall option if you install new package with the same version.
+```pip install -i https://test.pypi.org/simple/ chase-pkg==0.0.2```
 - Import package: 
-```import package_name```
+```import chase```
 
 ##### Run console application in virtual environment.
 
 - Run command: 
-```python -m chase --help```
+```python -m chase [ARGS] ```
+- List of args with description: 
+```python -m chase --help ```
