@@ -5,7 +5,7 @@ Chase appliaction.
 ### Description
 
 A program that imitates a wolf chase after a sheep.
-This task is implemented for 'Python programming' course at TUL.
+Made for 'Python programming' course at TUL.
 
 ### Authors
 - Kacper Włodarczyk
